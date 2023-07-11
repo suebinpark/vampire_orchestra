@@ -18,6 +18,7 @@ Every time the player starts the game, six different piano key sounds are assign
 
 ### Functions
 <ol>
+  <li>New line is created if the number of remaining gems is lower than 20</li>
   <li>Summon your bats to help you collect the gems</li>
   <p>: Press 'b' key to create bats. They fly in random direction starting from a random point.</p>
   <li>Background Image changes depending on the actual time</li>

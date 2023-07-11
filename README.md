@@ -22,3 +22,11 @@ Every time the player starts the game, six different piano key sounds are assign
   <p>Press 'b' key to create bats. They fly in random direction starting from a random point.</p>
   <li>Background Image changes depending on the actual time</li>
 </ol>
+
+### Screenshots
+<img width="1072" alt="0start" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/096913fc-a118-4efd-97fe-88bb3ba264d3">
+<img width="1072" alt="4shoot" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/40b75b3b-4f93-40be-85b5-5b2c20d22608">
+<img width="1072" alt="1shoot" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/5cfa66c8-36fb-49c1-aa83-6b27b8f5f514">
+<img width="1072" alt="2shoot" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/35594c7f-1940-4901-bdbb-1e3ca9754cdb">
+<img width="1072" alt="3shoot" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/bd814766-b06d-43a8-ac21-ab6e8a74f6eb">
+<img width="1072" alt="5dance" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/1182d660-3291-4c8e-8ffc-8f0044009fb2">

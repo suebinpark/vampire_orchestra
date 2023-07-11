@@ -19,9 +19,12 @@ Every time the player starts the game, six different piano key sounds are assign
 ### Functions
 <ol>
   <li>Summon your bats to help you collect the gems</li>
-  <p>Press 'b' key to create bats. They fly in random direction starting from a random point.</p>
+  <p>: Press 'b' key to create bats. They fly in random direction starting from a random point.</p>
   <li>Background Image changes depending on the actual time</li>
 </ol>
+
+### Demo Video
+
 
 ### Screenshots
 <img width="1072" alt="0start" src="https://github.com/suebinpark/vampire_orchestra/assets/90715726/096913fc-a118-4efd-97fe-88bb3ba264d3">

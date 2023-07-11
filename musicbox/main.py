@@ -66,7 +66,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         imageSelect = np.random.choice([vampFemale_img, vampMale_img])
-        self.image = pygame.transform.scale(vampFemale_img, (100, 128))
+        self.image = pygame.transform.scale((imageSelect), (100, 128))
         self.image.set_colorkey((BLACK))
         self.rect = self.image.get_rect()
         self.rect.centerx = WINDOW_WIDTH / 2
@@ -324,18 +324,18 @@ def main():
 
         current_hour = datetime.datetime.now().strftime("%H")
         current_hour = int(current_hour)
-        # if current_hour >= 6 and current_hour <12:
-        #     BG_IMAGE = bgYellow_img
-        #     BG = bgYellow
-        # elif current_hour >=12 and current_hour <18:
-        #     BG_IMAGE = bgBlue_img
-        #     BG = bgBlue
-        # elif current_hour >=18 and current_hour <20:
-        #     BG_IMAGE = bgYellow_img
-        #     BG = bgYellow
-        # else:
-        #     BG_IMAGE = bgDark_img
-        #     BG = bgDark
+        if current_hour >= 6 and current_hour <12:
+            BG_IMAGE = bgYellow_img
+            BG = bgYellow
+        elif current_hour >=12 and current_hour <18:
+            BG_IMAGE = bgBlue_img
+            BG = bgBlue
+        elif current_hour >=18 and current_hour <20:
+            BG_IMAGE = bgYellow_img
+            BG = bgYellow
+        else:
+            BG_IMAGE = bgDark_img
+            BG = bgDark
 
         all_sprites.update()
 
